@@ -1,0 +1,23 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "192.168.1.2",
+  "port": "22",
+  "target": "/var/www/fengshui-consultant/",
+  "ignore": [
+    ".remote-sync.json",
+    ".remote-sync-remserver.json",
+    ".remote-sync-locserver.json",
+    ".git/**",
+    "*.sass",
+    "*.sass-cache"
+  ],
+  "username": "dron",
+  "password": "Pu$!k2509",
+  "watch": ["/css/index.css","/css/index.css.map"],
+  "transport": "scp"
+}

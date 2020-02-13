@@ -1,0 +1,25 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "ssh.fengshui-c.nichost.ru",
+  "port": "22",
+  "target": "/home/fengshui-c/fengshui-consultant.ru/docs/",
+  "ignore": [
+    ".remote-sync.json",
+    ".remote-sync-remserver.json",
+    ".remote-sync-locserver.json",
+    ".git/**",
+    "*.sass",
+    ".sass-cache",
+    "/.sass-cache",
+    ".DS_Store"
+  ],
+  "username": "fengshui-c",
+  "password": "wFDVm_O6",
+  "watch": ["/css/index.css","/css/index.css.map"],
+  "transport": "scp"
+}

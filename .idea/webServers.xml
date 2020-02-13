@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e380d0c5-efc2-4d68-87f9-9c659c4ea574" name="Fengshui-Consultant.ru" url="https://Fengshui-Consultant.ru">
+        <fileTransfer host="ssh.fengshui-c.nichost.ru" port="22" rootFolder="/home/fengshui-c/fengshui-consultant.ru/docs/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

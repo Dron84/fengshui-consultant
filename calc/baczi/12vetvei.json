@@ -1,0 +1,14 @@
+{
+"1": { "ground": "子", "ground_color": "blue"},
+"2": {"ground": "丑", "ground_color": "brown"},
+"3": {"ground": "寅", "ground_color": "green"},
+"4": {"ground": "卯", "ground_color": "green"},
+"5": {"ground": "辰", "ground_color": "brown"},
+"6": {"ground": "巳", "ground_color": "red"},
+"7": {"ground": "午", "ground_color": "red"},
+"8": {"ground": "未", "ground_color": "brown"},
+"9": {"ground": "申", "ground_color": "gray"},
+"10": {"ground": "酉", "ground_color": "gray"},
+"11": {"ground": "戌", "ground_color": "brown"},
+"12": {"ground": "亥", "ground_color": "blue"}
+}

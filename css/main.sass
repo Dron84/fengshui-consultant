@@ -1,0 +1,116 @@
+@keyframes shine
+	to
+		background-position: 200% center
+
+body
+	font-size: 1.8em
+	line-height: 1.8em
+.main
+	background-image: url('/img/main_bg.jpg')
+	background-repeat: no-repeat
+	background-size: cover
+	padding: 0
+h1
+	font-family: 'ChinaCyr' !important
+h2
+	font-family: 'ChinaCyr' !important
+	margin-top: 40px
+	margin-bottom: 40px
+h3
+	font-family: 'ChinaCyr' !important
+	margin-top: 30px
+	margin-bottom: 30px
+.collapse-btn
+	color: $text-normal !important
+	&:hover
+		color: $text-select !important
+nav
+	font-size: 1em
+	line-height: 1em
+	li
+	font-family: 'ChinaCyr' !important
+label
+	font-family: 'ChinaCyr' !important
+.navbar
+	background-color: $navbar-bg
+	a
+		color: rgba(255,255,255,0.9) !important
+		text-shadow: rgba(255,255,255,0.5)
+		animation: 2s fabe-in-out
+		&:hover
+			background-color: $text-accent !important
+			color: $text-select !important
+.navbar-brand
+	font-family: 'ChinaCyr' !important
+	font-weight: 1000
+	animation: shine 2s linear infinite
+	&:hover
+		background-color: rgba(255, 255, 255, 0.5)
+		color: $text-accent !important
+.jumbotron
+	background-color: transparent
+	color: white
+	text-shadow: 0px 5px 10px black
+	cursor: normal
+.round
+	display: inline-block
+	width: 100px
+	height: 100px
+	border: 1px solid black
+	border-radius: 50%
+	font-size: 4em !important
+	position: relative
+	background: linear-gradient(to left, rgba(0,0,0, 0) 20%, #F92BFC 40%, #F92BFC 60%, rgba(0,0,0, 0) 80%)
+	background-size: 200% auto
+	animation: shine 2s linear infinite
+	span
+		position: relative
+		display: inline-block
+		text-align: center
+		font-size: 0.8em !important
+		line-height: 1.8em !important
+	&:hover
+		color: $text-accent
+		border-color: $text-accent
+.btn-order
+	border: 2px solid $text-accent
+	border-radius: 5px
+	background-color: transparent
+	&:hover
+		background-color: $text-accent
+		color: $text-select
+	&:disabled
+		background-color: $text-normal
+		color: $text-normal
+.orders
+	padding-bottom: 30px
+	background-color: $color-bg
+	color: $text-select
+	.btn-default
+		&:hover
+			background-color: $text-accent
+			color: $text-select
+
+	&-form
+		div
+			margin-top: 5px
+			margin-bottom: 10px
+.clear40
+	margin-top: 20px
+	margin-bottom: 20px
+	clear: both
+a
+	color: rgba(255,0,255, 0.6)
+	&:hover
+		color: rgba(255,0,255, 1)
+P
+	text-indent: 1.5em
+	text-align: justify
+.footer
+	//position: fixed
+	bottom: 0
+	left: 0
+	margin: 0 auto
+	width: 100vw
+	z-index: 999
+	background-color: $navbar-bg
